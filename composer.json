@@ -1,0 +1,14 @@
+{
+    "name": "carlos/php-codeigniter-basic",
+    "type": "php",
+    "authors": [
+        {
+            "name": "carlos",
+            "email": "carloscmaleno@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+      "codeigniter/framework" : "3.0.2"
+    }
+}

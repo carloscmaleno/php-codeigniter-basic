@@ -1,0 +1,6 @@
+application/cache
+application/logs
+.idea
+/vendor/
+/node_modules/
+/public/assets/*
