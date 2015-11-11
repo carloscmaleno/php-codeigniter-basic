@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/carloscmaleno/php-codeigniter-basic.svg?branch=master)](https://travis-ci.org/carloscmaleno/php-codeigniter-basic)
+
 # php-codeigniter-basic
 Base for start a simple proyect with Codeigniter 3 framework
 
