@@ -1,5 +1,4 @@
-[![Build Status](https://travis-ci.org/carloscmaleno/php-codeigniter-basic.svg?branch=master)](https://travis-ci.org/carloscmaleno/php-codeigniter-basic)
-
+[![Build Status](https://travis-ci.org/carloscmaleno/php-codeigniter-basic.svg?branch=master)](https://travis-ci.org/carloscmaleno/php-codeigniter-basic)[![Code Climate](https://codeclimate.com/github/carloscmaleno/php-codeigniter-basic/badges/gpa.svg)](https://codeclimate.com/github/carloscmaleno/php-codeigniter-basic)
 # php-codeigniter-basic
 Base for start a simple proyect with Codeigniter 3 framework
 
