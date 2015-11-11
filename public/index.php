@@ -55,8 +55,10 @@
  */
  
  date_default_timezone_set('Europe/Madrid');
- 
-if(strpos($_SERVER["HTTP_HOST"],"www.") !== false){
+
+if(!isset($_SERVER['HTTP_HOST'])) {
+    define('ENVIRONMENT', 'development');
+}elseif(strpos($_SERVER["HTTP_HOST"],"www.") !== false){
     define('ENVIRONMENT', 'production');
 
 }else if(strpos($_SERVER["HTTP_HOST"],"pre.") !== false){

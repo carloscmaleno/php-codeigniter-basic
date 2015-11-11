@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | environments.
 |
 */
-$config['base_url'] = (isset($_SERVER['HTTPS'])? 'https://' : 'http://').(isset($_SERVER['HTTP_X_FORWARDED_HOST']) ?  $_SERVER['HTTP_X_FORWARDED_HOST'] : $_SERVER["HTTP_HOST"]);
+$config['base_url'] = (isset($_SERVER['HTTPS'])? 'https://' : 'http://').(isset($_SERVER['HTTP_X_FORWARDED_HOST']) ?  $_SERVER['HTTP_X_FORWARDED_HOST'] : isset($_SERVER["HTTP_HOST"])? $_SERVER["HTTP_HOST"] : '');
 $config['base_url'] .= '/php-codeigniter-basic/public/';
 /*
 |--------------------------------------------------------------------------
